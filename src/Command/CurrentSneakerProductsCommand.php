@@ -27,7 +27,7 @@ class CurrentSneakerProductsCommand extends Command
         parent::__construct();
     }
 
-    protected function configure()
+    protected function configure() : void
     {
         $this
             ->setDescription('Prints current (not outlet) sneaker products');
