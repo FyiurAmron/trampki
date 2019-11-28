@@ -10,7 +10,6 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 use /** @noinspection PhpUnusedAliasInspection */
     Symfony\Component\Routing\Annotation\Route;
 
-/** @noinspection PhpUnused */
 class ProductController
 {
     /**

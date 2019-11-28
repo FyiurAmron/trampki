@@ -12,3 +12,7 @@
 3: `php bin\console doctrine:fixtures:load`
 
 4: `symfony server:start` albo jakikolwiek stos AMP
+
+5a: `php bin\console app:current-sneaker-products` robi dump przez print_r w konsoli
+
+5b: route `/currentSneakerProducts` dla zwrotki JSON
